@@ -22,15 +22,15 @@ A. Optimization of Reaction Parameters and Prediction of Reaction Performance at
 
 (2) XGBoost Regression
 - The ML regression model was constructed using XGBoost based on the experimental data reorganized in the "Data Sorting" step.
-- The constructed ML regression model is saved as a "predictor.*.sav" file.
+- The constructed ML regression model is saved as a "predictor*.sav" file.
 
 (3) ABC Optimization
 - Multidimensional reaction parameters were optimized using metaheuristic optimization with an artificial bee colony (ABC) algorithm to achieve the optimal target value.
-- To run the ABC optimization, both "artificial_bee_colony.py" and "predictor.*.sav" files are required.
-- The optimized reaction conditions are listed in the created "ABC.sol.*.csv" file.
+- To run the ABC optimization, both "artificial_bee_colony.py" and "predictor*.sav" files are required.
+- The optimized reaction conditions are listed in the created "ABC.sol*.csv" file.
 
 (4) From Optimized Results to XGBoost Prediction
-- Based on the reaction parameters listed in the "ABC.sol.*.csv" file, reaction performances are predicted using the constructed ML model "predictor.ABC*.sav," and the predicted values using XGBoost models are provided in the "ABC.results*.csv" files.
+- Based on the reaction parameters listed in the "ABC.sol*.csv" file, reaction performances are predicted using the constructed ML model "predictor.ABC*.sav," and the predicted values using XGBoost models are provided in the "ABC.results*.csv" files.
 
 B. Prediction of Reaction Performance for the 1st Reactor at the Given Reaction Parameter (sample_ABC_XGB_Zone1.ipynb)
 
