@@ -1,4 +1,4 @@
-## Carbon-efficient reaction optimization of nonoxidative direct methane conversion based on the hydrocarbon cofeeding effect 
+# Carbon-efficient reaction optimization of nonoxidative direct methane conversion based on the hydrocarbon cofeeding effect 
 
 # 1. Requirements
 
@@ -11,7 +11,7 @@ numpy (version 1.22.3)
 sklearn (version 1.0.2)
 We recommend using our code with libraries that match our specified versions or higher.
 
-# 2. Usage Descriptions for Our Codes:
+# 2. Usage Descriptions for Our Codes
 Below are detailed descriptions of the procedures involved in using our codes:
 
 A. Optimization of Reaction Parameters and Prediction of Reaction Performance at the Integrated Reactor System (sample_ABC_XGB.ipynb)
