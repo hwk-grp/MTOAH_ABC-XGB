@@ -5,10 +5,15 @@
 Our code has been tested within a virtual environment, utilizing the following libraries:
 
 pandas (version 1.4.2)
+
 joblib (version 1.1.0)
+
 xgboost (version 1.3.1)
+
 numpy (version 1.22.3)
+
 sklearn (version 1.0.2)
+
 We recommend using our code with libraries that match our specified versions or higher.
 
 # 2. Usage Descriptions for Our Codes
