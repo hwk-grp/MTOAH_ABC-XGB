@@ -1,0 +1,6 @@
+index,keys,values
+R1 Temperature,f0,5365.0
+R1 Flow,f1,154.0
+R1 H2/CH4,f3,9207.0
+R2 Temperature,f4,3030.0
+R2 Flow,f5,1177.0
